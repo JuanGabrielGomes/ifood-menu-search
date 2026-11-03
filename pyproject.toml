@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ifood-menu-search"
+version = "0.1.0"
+description = "Busca semântica em cardápios de delivery com RAG, filtros de metadados e pgvector"
+requires-python = ">=3.11"
+dependencies = [
+  "anthropic",
+  "fastapi",
+  "fastembed",
+  "numpy",
+  "pgvector",
+  "psycopg[binary]",
+  "uvicorn",
+]
+
+[project.optional-dependencies]
+dev = ["httpx", "pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "cantina",
+    "name": "Cantina Bella",
+    "dishes": [
+      {"id": "cantina-01", "name": "Lasanha à bolonhesa", "description": "Camadas de massa fresca com molho bolonhesa de carne bovina e tomate, gratinada com queijo.", "category": "italiana", "price_cents": 3900, "prep_minutes": 35, "vegetarian": false},
+      {"id": "cantina-02", "name": "Espaguete ao sugo com manjericão", "description": "Espaguete com molho sugo de tomate fresco e manjericão. Sem carne, simples e leve.", "category": "italiana", "price_cents": 2900, "prep_minutes": 25, "vegetarian": true},
+      {"id": "cantina-03", "name": "Fettuccine alfredo", "description": "Fettuccine com molho cremoso de queijo parmesão e manteiga.", "category": "italiana", "price_cents": 3600, "prep_minutes": 30, "vegetarian": true},
+      {"id": "cantina-04", "name": "Ravióli de queijo ao molho de tomate", "description": "Ravióli recheado de queijo com molho de tomate caseiro.", "category": "italiana", "price_cents": 3800, "prep_minutes": 30, "vegetarian": true},
+      {"id": "cantina-05", "name": "Penne ao pesto de nozes", "description": "Penne com pesto de nozes e manjericão e lascas de parmesão.", "category": "italiana", "price_cents": 3400, "prep_minutes": 25, "vegetarian": true},
+      {"id": "cantina-06", "name": "Risoto de cogumelos", "description": "Risoto cremoso de arroz arbóreo com cogumelos frescos e parmesão.", "category": "italiana", "price_cents": 4800, "prep_minutes": 40, "vegetarian": true},
+      {"id": "cantina-07", "name": "Parmegiana de frango", "description": "Filé de frango empanado coberto com molho de tomate e queijo derretido, acompanha arroz.", "category": "italiana", "price_cents": 4400, "prep_minutes": 40, "vegetarian": false},
+      {"id": "cantina-08", "name": "Salada caprese", "description": "Salada leve de tomate, muçarela de búfala e manjericão com azeite.", "category": "saudavel", "price_cents": 2600, "prep_minutes": 10, "vegetarian": true},
+      {"id": "cantina-09", "name": "Tiramisù", "description": "Sobremesa italiana de café com camadas de creme mascarpone e cacau.", "category": "doces", "price_cents": 2200, "prep_minutes": 5, "vegetarian": true},
+      {"id": "cantina-10", "name": "Nhoque de batata ao sugo", "description": "Nhoque de batata macio ao molho sugo de tomate.", "category": "italiana", "price_cents": 3300, "prep_minutes": 30, "vegetarian": true}
+    ]
+  },
+  {
+    "id": "burger",
+    "name": "Burger Norte",
+    "dishes": [
+      {"id": "burger-01", "name": "Combo duplo smash com batata", "description": "Dois hambúrgueres smash de carne bovina com queijo, picles e molho especial, acompanha batata frita.", "category": "hamburguer", "price_cents": 4200, "prep_minutes": 20, "vegetarian": false},
+      {"id": "burger-02", "name": "Cheeseburger clássico", "description": "Hambúrguer de carne bovina com queijo cheddar derretido, alface e tomate no pão de brioche.", "category": "hamburguer", "price_cents": 2800, "prep_minutes": 15, "vegetarian": false},
+      {"id": "burger-03", "name": "Burger de frango crocante", "description": "Sanduíche de frango empanado e crocante com maionese temperada e alface.", "category": "hamburguer", "price_cents": 3000, "prep_minutes": 18, "vegetarian": false},
+      {"id": "burger-04", "name": "Burger vegetariano de grão-de-bico", "description": "Hambúrguer vegetariano de grão-de-bico no pão integral, sem carne, com salada e maionese de ervas.", "category": "hamburguer", "price_cents": 3200, "prep_minutes": 18, "vegetarian": true},
+      {"id": "burger-05", "name": "Burger de cogumelos portobello", "description": "Hambúrguer de cogumelos portobello grelhados com queijo e rúcula, sem carne.", "category": "hamburguer", "price_cents": 3500, "prep_minutes": 20, "vegetarian": true},
+      {"id": "burger-06", "name": "Batata frita com cheddar e bacon", "description": "Batata frita coberta com cheddar cremoso e farofa de bacon, para beliscar.", "category": "lanches", "price_cents": 2400, "prep_minutes": 12, "vegetarian": false},
+      {"id": "burger-07", "name": "Onion rings", "description": "Anéis de cebola empanados e fritos, crocantes, com molho barbecue.", "category": "lanches", "price_cents": 1800, "prep_minutes": 10, "vegetarian": true},
+      {"id": "burger-08", "name": "Milkshake de chocolate", "description": "Milkshake gelado e cremoso de chocolate com sorvete de baunilha e calda de chocolate.", "category": "doces", "price_cents": 1900, "prep_minutes": 8, "vegetarian": true},
+      {"id": "burger-09", "name": "Burger bacon BBQ", "description": "Hambúrguer de carne bovina com cheddar, bacon crocante e molho barbecue.", "category": "hamburguer", "price_cents": 3600, "prep_minutes": 20, "vegetarian": false},
+      {"id": "burger-10", "name": "Hot dog gourmet", "description": "Pão com salsicha artesanal, vinagrete, purê de batata e batata palha.", "category": "lanches", "price_cents": 2200, "prep_minutes": 12, "vegetarian": false}
+    ]
+  },
+  {
+    "id": "sushi",
+    "name": "Sushi Kame",
+    "dishes": [
+      {"id": "sushi-01", "name": "Combo 20 peças", "description": "Combo com 20 peças variadas de sushi, sashimi e hossomaki de salmão, atum e kani.", "category": "japonesa", "price_cents": 6800, "prep_minutes": 40, "vegetarian": false},
+      {"id": "sushi-02", "name": "Temaki de salmão", "description": "Temaki de salmão fresco com arroz, cebolinha e cream cheese.", "category": "japonesa", "price_cents": 2400, "prep_minutes": 15, "vegetarian": false},
+      {"id": "sushi-03", "name": "Temaki de pepino com cream cheese", "description": "Temaki vegetariano de pepino com cream cheese e gergelim.", "category": "japonesa", "price_cents": 1800, "prep_minutes": 12, "vegetarian": true},
+      {"id": "sushi-04", "name": "Hossomaki de kani", "description": "Oito hossomakis de kani (surimi) com arroz e alga nori.", "category": "japonesa", "price_cents": 2000, "prep_minutes": 20, "vegetarian": false},
+      {"id": "sushi-05", "name": "Sashimi de salmão", "description": "Oito fatias de sashimi de salmão fresco, sem arroz.", "category": "japonesa", "price_cents": 3800, "prep_minutes": 20, "vegetarian": false},
+      {"id": "sushi-06", "name": "Yakisoba de legumes", "description": "Yakisoba de macarrão oriental com legumes salteados no shoyu, vegetariano.", "category": "japonesa", "price_cents": 3200, "prep_minutes": 25, "vegetarian": true},
+      {"id": "sushi-07", "name": "Gyoza de carne", "description": "Seis gyozas de carne suína grelhados com molho shoyu.", "category": "japonesa", "price_cents": 2600, "prep_minutes": 20, "vegetarian": false},
+      {"id": "sushi-08", "name": "Gyoza de legumes", "description": "Seis gyozas recheados de legumes, vegetariano, com molho shoyu.", "category": "japonesa", "price_cents": 2400, "prep_minutes": 20, "vegetarian": true},
+      {"id": "sushi-09", "name": "Uramaki de manga com cream cheese", "description": "Oito uramakis vegetarianos de manga e cream cheese com gergelim.", "category": "japonesa", "price_cents": 2800, "prep_minutes": 22, "vegetarian": true},
+      {"id": "sushi-10", "name": "Missoshiru", "description": "Sopa quente de missô com tofu e cebolinha.", "category": "japonesa", "price_cents": 1200, "prep_minutes": 8, "vegetarian": false}
+    ]
+  },
+  {
+    "id": "pizza",
+    "name": "Pizzaria Forno",
+    "dishes": [
+      {"id": "pizza-01", "name": "Pizza margherita grande", "description": "Pizza grande de molho de tomate, muçarela e manjericão fresco.", "category": "pizza", "price_cents": 4400, "prep_minutes": 35, "vegetarian": true},
+      {"id": "pizza-02", "name": "Pizza calabresa grande", "description": "Pizza grande de calabresa fatiada com cebola e muçarela.", "category": "pizza", "price_cents": 4600, "prep_minutes": 35, "vegetarian": false},
+      {"id": "pizza-03", "name": "Pizza quatro queijos grande", "description": "Pizza grande com muçarela, provolone, gorgonzola e parmesão, muito queijo.", "category": "pizza", "price_cents": 5200, "prep_minutes": 35, "vegetarian": true},
+      {"id": "pizza-04", "name": "Pizza portuguesa grande", "description": "Pizza grande portuguesa com presunto, ovos, cebola, ervilha e muçarela.", "category": "pizza", "price_cents": 5000, "prep_minutes": 38, "vegetarian": false},
+      {"id": "pizza-05", "name": "Pizza de rúcula com tomate seco", "description": "Pizza grande de rúcula fresca com tomate seco e muçarela de búfala.", "category": "pizza", "price_cents": 5400, "prep_minutes": 38, "vegetarian": true},
+      {"id": "pizza-06", "name": "Pizza brotinho de chocolate", "description": "Pizza brotinho doce de chocolate ao leite com granulado.", "category": "doces", "price_cents": 2800, "prep_minutes": 20, "vegetarian": true},
+      {"id": "pizza-07", "name": "Pizza individual margherita", "description": "Pizza individual de muçarela e tomate, estilo margherita.", "category": "pizza", "price_cents": 2600, "prep_minutes": 20, "vegetarian": true},
+      {"id": "pizza-08", "name": "Pizza individual de frango com catupiry", "description": "Pizza individual de frango desfiado com catupiry.", "category": "pizza", "price_cents": 3000, "prep_minutes": 22, "vegetarian": false},
+      {"id": "pizza-09", "name": "Calzone de presunto e queijo", "description": "Calzone assado recheado de presunto e queijo muçarela.", "category": "pizza", "price_cents": 3400, "prep_minutes": 28, "vegetarian": false},
+      {"id": "pizza-10", "name": "Pizza vegana de legumes grande", "description": "Pizza grande vegana de legumes grelhados, sem queijo de leite e sem carne, com tomate e abobrinha.", "category": "pizza", "price_cents": 4900, "prep_minutes": 35, "vegetarian": true}
+    ]
+  },
+  {
+    "id": "brasil",
+    "name": "Sabor Brasileiro",
+    "dishes": [
+      {"id": "brasil-01", "name": "Feijoada completa para 2 pessoas", "description": "Feijoada completa para duas pessoas: feijão preto com carnes suínas, arroz, couve, farofa e laranja.", "category": "brasileira", "price_cents": 7200, "prep_minutes": 45, "vegetarian": false},
+      {"id": "brasil-02", "name": "Prato feito de bife acebolado", "description": "Prato feito com bife acebolado, arroz, feijão e batata frita.", "category": "brasileira", "price_cents": 3200, "prep_minutes": 25, "vegetarian": false},
+      {"id": "brasil-03", "name": "Moqueca de peixe para 2 pessoas", "description": "Moqueca de peixe com leite de coco e dendê, para duas pessoas, acompanha arroz e pirão.", "category": "brasileira", "price_cents": 8800, "prep_minutes": 50, "vegetarian": false},
+      {"id": "brasil-04", "name": "Strogonoff de frango", "description": "Strogonoff de frango cremoso com arroz branco e batata palha.", "category": "brasileira", "price_cents": 3400, "prep_minutes": 25, "vegetarian": false},
+      {"id": "brasil-05", "name": "Baião de dois vegetariano", "description": "Baião de dois vegetariano de arroz e feijão-de-corda com queijo coalho, sem carne.", "category": "brasileira", "price_cents": 3600, "prep_minutes": 30, "vegetarian": true},
+      {"id": "brasil-06", "name": "Tapioca de queijo coalho", "description": "Tapioca recheada com queijo coalho derretido.", "category": "brasileira", "price_cents": 1600, "prep_minutes": 10, "vegetarian": true},
+      {"id": "brasil-07", "name": "Tapioca de carne seca", "description": "Tapioca recheada com carne seca desfiada e queijo.", "category": "brasileira", "price_cents": 2200, "prep_minutes": 12, "vegetarian": false},
+      {"id": "brasil-08", "name": "Pastel de queijo", "description": "Pastel de feira frito e crocante recheado de queijo.", "category": "lanches", "price_cents": 1400, "prep_minutes": 10, "vegetarian": true},
+      {"id": "brasil-09", "name": "Coxinha de frango", "description": "Quatro coxinhas de frango cremosas com massa crocante.", "category": "lanches", "price_cents": 1800, "prep_minutes": 15, "vegetarian": false},
+      {"id": "brasil-10", "name": "Pudim de leite", "description": "Pudim de leite condensado com calda de caramelo.", "category": "doces", "price_cents": 1600, "prep_minutes": 5, "vegetarian": true}
+    ]
+  },
+  {
+    "id": "verde",
+    "name": "Verde Vivo",
+    "dishes": [
+      {"id": "verde-01", "name": "Bowl de quinoa com legumes assados", "description": "Bowl vegano de quinoa com legumes assados, grão-de-bico e molho de tahine.", "category": "saudavel", "price_cents": 3400, "prep_minutes": 15, "vegetarian": true},
+      {"id": "verde-02", "name": "Salada caesar com frango grelhado", "description": "Salada caesar com alface americana, frango grelhado, croutons e parmesão.", "category": "saudavel", "price_cents": 3300, "prep_minutes": 15, "vegetarian": false},
+      {"id": "verde-03", "name": "Wrap de falafel com homus", "description": "Wrap vegano de falafel crocante com homus, tomate e folhas.", "category": "saudavel", "price_cents": 2900, "prep_minutes": 12, "vegetarian": true},
+      {"id": "verde-04", "name": "Salada de grão-de-bico", "description": "Salada vegana de grão-de-bico com pepino, tomate e hortelã.", "category": "saudavel", "price_cents": 2700, "prep_minutes": 10, "vegetarian": true},
+      {"id": "verde-05", "name": "Poke de salmão", "description": "Poke havaiano de salmão com arroz, abacate, pepino e shoyu.", "category": "saudavel", "price_cents": 4200, "prep_minutes": 15, "vegetarian": false},
+      {"id": "verde-06", "name": "Poke vegetariano de tofu e manga", "description": "Poke vegano de tofu marinado e manga com arroz, edamame e pepino.", "category": "saudavel", "price_cents": 3800, "prep_minutes": 15, "vegetarian": true},
+      {"id": "verde-07", "name": "Sopa de abóbora com gengibre", "description": "Sopa quente vegana de abóbora com gengibre e leite de coco.", "category": "saudavel", "price_cents": 2500, "prep_minutes": 15, "vegetarian": true},
+      {"id": "verde-08", "name": "Suco verde detox", "description": "Suco verde gelado de couve, maçã, limão e gengibre, vegano.", "category": "bebidas", "price_cents": 1400, "prep_minutes": 5, "vegetarian": true},
+      {"id": "verde-09", "name": "Omelete de espinafre e queijo", "description": "Omelete de espinafre e queijo com salada de folhas.", "category": "saudavel", "price_cents": 2600, "prep_minutes": 15, "vegetarian": true},
+      {"id": "verde-10", "name": "Panqueca integral de banana", "description": "Panqueca integral com banana fatiada e mel.", "category": "doces", "price_cents": 2200, "prep_minutes": 12, "vegetarian": true}
+    ]
+  },
+  {
+    "id": "doce",
+    "name": "Doce Encanto",
+    "dishes": [
+      {"id": "doce-01", "name": "Brownie com sorvete", "description": "Brownie de chocolate quente com bola de sorvete de creme.", "category": "doces", "price_cents": 2400, "prep_minutes": 8, "vegetarian": true},
+      {"id": "doce-02", "name": "Torta de limão", "description": "Fatia de torta de limão com merengue.", "category": "doces", "price_cents": 1800, "prep_minutes": 5, "vegetarian": true},
+      {"id": "doce-03", "name": "Bolo de cenoura com chocolate", "description": "Bolo de cenoura caseiro com cobertura de chocolate.", "category": "doces", "price_cents": 1600, "prep_minutes": 5, "vegetarian": true},
+      {"id": "doce-04", "name": "Cheesecake de frutas vermelhas", "description": "Fatia de cheesecake com calda de frutas vermelhas.", "category": "doces", "price_cents": 2200, "prep_minutes": 5, "vegetarian": true},
+      {"id": "doce-05", "name": "Açaí 500ml com granola e banana", "description": "Açaí gelado e cremoso de 500 ml com granola e banana.", "category": "doces", "price_cents": 2800, "prep_minutes": 8, "vegetarian": true},
+      {"id": "doce-06", "name": "Café gelado de caramelo", "description": "Café gelado com calda de caramelo e leite.", "category": "bebidas", "price_cents": 1500, "prep_minutes": 6, "vegetarian": true},
+      {"id": "doce-07", "name": "Cookie gigante de chocolate", "description": "Cookie gigante de chocolate com gotas de chocolate meio amargo.", "category": "doces", "price_cents": 1200, "prep_minutes": 5, "vegetarian": true},
+      {"id": "doce-08", "name": "Pão de queijo", "description": "Dez pães de queijo mineiros quentinhos.", "category": "lanches", "price_cents": 1600, "prep_minutes": 10, "vegetarian": true},
+      {"id": "doce-09", "name": "Misto quente", "description": "Misto quente de presunto e queijo derretido no pão de forma.", "category": "lanches", "price_cents": 1800, "prep_minutes": 10, "vegetarian": false},
+      {"id": "doce-10", "name": "Croissant de presunto e queijo", "description": "Croissant folhado de presunto e queijo, para o lanche da tarde.", "category": "lanches", "price_cents": 2000, "prep_minutes": 8, "vegetarian": false}
+    ]
+  },
+  {
+    "id": "churras",
+    "name": "Churrasco & Cia",
+    "dishes": [
+      {"id": "churras-01", "name": "Picanha na chapa para 2 pessoas", "description": "Picanha na chapa para duas pessoas, com arroz, farofa e vinagrete.", "category": "churrasco", "price_cents": 9200, "prep_minutes": 40, "vegetarian": false},
+      {"id": "churras-02", "name": "Espetinho de carne com farofa", "description": "Três espetinhos de carne bovina na brasa com farofa.", "category": "churrasco", "price_cents": 2800, "prep_minutes": 20, "vegetarian": false},
+      {"id": "churras-03", "name": "Frango à passarinho", "description": "Frango à passarinho frito e crocante com alho e salsa.", "category": "churrasco", "price_cents": 3000, "prep_minutes": 25, "vegetarian": false},
+      {"id": "churras-04", "name": "Costela barbecue com mandioca", "description": "Costela bovina assada lentamente com molho barbecue e mandioca cozida.", "category": "churrasco", "price_cents": 5600, "prep_minutes": 50, "vegetarian": false},
+      {"id": "churras-05", "name": "Linguiça toscana acebolada", "description": "Linguiça toscana na brasa com cebola caramelizada.", "category": "churrasco", "price_cents": 2400, "prep_minutes": 20, "vegetarian": false},
+      {"id": "churras-06", "name": "Batata rústica com alecrim", "description": "Batata rústica assada com alecrim e alho.", "category": "lanches", "price_cents": 1800, "prep_minutes": 18, "vegetarian": true},
+      {"id": "churras-07", "name": "Pão de alho", "description": "Quatro pães de alho assados com manteiga e ervas.", "category": "lanches", "price_cents": 1400, "prep_minutes": 10, "vegetarian": true},
+      {"id": "churras-08", "name": "Vinagrete com farofa", "description": "Vinagrete fresco com farofa crocante para acompanhar churrasco.", "category": "churrasco", "price_cents": 1200, "prep_minutes": 8, "vegetarian": true},
+      {"id": "churras-09", "name": "Maminha ao molho madeira", "description": "Maminha grelhada fatiada com molho madeira, acompanha arroz.", "category": "churrasco", "price_cents": 4800, "prep_minutes": 30, "vegetarian": false},
+      {"id": "churras-10", "name": "Queijo coalho grelhado", "description": "Quatro espetos de queijo coalho grelhados com melado.", "category": "lanches", "price_cents": 2000, "prep_minutes": 12, "vegetarian": true}
+    ]
+  }
+]
