@@ -2,7 +2,7 @@
 
 Busca semântica em cardápios de delivery: perguntas como "algo vegetariano até R$ 40 que chegue rápido" são respondidas a partir de pratos fictícios, combinando filtros de metadados (preço, tempo, categoria) com busca vetorial, e a resposta gerada cita os pratos encontrados.
 
-> **Estado:** a avaliação abaixo foi medida com o backend em memória (numpy), que usa a mesma lógica do pgvector. O backend pgvector está implementado, mas ainda não foi validado contra um Postgres real.
+> **Estado:** a avaliação abaixo foi medida primeiro com o backend em memória (numpy) e repetida contra um Postgres real com pgvector (imagem `pgvector/pgvector:pg17`, via Docker). Os números das duas execuções são idênticos. Com 80 pratos o planejador pode preferir varredura sequencial ao índice HNSW, então isto valida a consulta e a ingestão, não o desempenho do índice.
 
 ## Pipeline
 
@@ -86,7 +86,7 @@ python -m venv .venv
 .venv/Scripts/python -m menusearch.evaluate
 ```
 
-O primeiro `evaluate` baixa o modelo de embeddings (cerca de 220 MB). Para usar pgvector: `docker compose up -d`, copie `.env.example` para `.env`, rode `python -m menusearch.ingest` e depois `python -m menusearch.evaluate --pg`. A API sobe com `uvicorn menusearch.api:build_default_app --factory`; `/ask` precisa de `ANTHROPIC_API_KEY`.
+O primeiro `evaluate` baixa o modelo de embeddings (cerca de 220 MB). Para usar pgvector: `docker compose up -d`, exporte `DATABASE_URL` (o valor está em `.env.example`; o código não lê o `.env` sozinho), rode `python -m menusearch.ingest` e depois `python -m menusearch.evaluate --pg`. A API sobe com `uvicorn menusearch.api:build_default_app --factory`; `/ask` precisa de `ANTHROPIC_API_KEY`.
 
 ## Decisões e trade-offs
 
@@ -98,7 +98,7 @@ O primeiro `evaluate` baixa o modelo de embeddings (cerca de 220 MB). Para usar 
 
 ## Próximos passos
 
-- Validar o `PgVectorStore` contra Postgres real (Docker ou Supabase) e repetir a avaliação com `--pg`.
+- Medir o `PgVectorStore` com um cardápio maior, onde o índice HNSW passa a ser usado de fato.
 - Busca híbrida (vetor + texto) para as perguntas semânticas que falharam.
 - Comparar com um modelo de embeddings maior.
 - Avaliar a qualidade da resposta gerada, por exemplo a taxa de citações válidas.
